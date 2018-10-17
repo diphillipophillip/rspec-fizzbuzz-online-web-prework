@@ -2,11 +2,11 @@ require_relative './spec_helper.rb'
 require_relative '../fizzbuzz.rb'
 
 def fizzbuzz(x)
-  if ( % 3 == 0 && number % 5 == 0)
+  if (x % 3 == 0 && x % 5 == 0)
   "fizzbuzz"
-elsif (number % 5 == 0)
+elsif (x % 5 == 0)
   "buzz"
-elsif (number % 3 == 0)  
+elsif (x % 3 == 0)  
   "fizz"
 else 
    "nil"
